@@ -131,7 +131,7 @@ public:
 				}
 			}
 			if (this->arr[i][i] == 0) {
-				for (int l = 0; l < this->size - 1; i++) {
+				for (int l = 0; l < this->size - 1; l++) {
 					if (this->arr[l][i] != 0) {
 						this->swap(i, l);
 						answer.swap(i, l);
